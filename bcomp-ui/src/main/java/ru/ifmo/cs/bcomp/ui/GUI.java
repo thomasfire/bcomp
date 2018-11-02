@@ -83,7 +83,7 @@ public class GUI extends JApplet {
 		frame.getContentPane().add(this);
 		init();
 		frame.pack();
-		frame.setResizable(false);
+		frame.setResizable(true);
 		frame.setVisible(true);
 		start();
 	}
